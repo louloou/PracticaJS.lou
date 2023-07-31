@@ -1,4 +1,8 @@
 alert('hi barbie')
-alert ('hi ken')
 
 console.log(150+8)
+
+let nombreAlumno = 'Sasha' 
+nombreAlumno = nombreAlumno + ' Cisneros'
+
+alert (nombreAlumno)
