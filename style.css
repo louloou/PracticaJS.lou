@@ -1,6 +1,7 @@
 body { 
-    background-color: rgb(222, 223, 169);
+    background-color: rgb(224, 220, 172);
 }
 h1, h2 {
-    font-family: cursive;
+font-family: cursive;
+text-align: center;
 }

@@ -1,12 +1,8 @@
-console.log ('La suma es 12 + 2')
-console.log (12+2)
-console.log ('La resta es 42 - 2')
-console.log (42 - 2)
-console.log ('La multiplicación es 9 * 4')
-console.log (9 * 4)
-console.log ('La división es 15 / 3')
-console.log (15 / 3)
-// como agregar el texto adelante del número? 
+
+console.log ('El resultado de la suma es: ' + (12+2))
+console.log ('El resultado de la resta es: '+ (42 - 2))
+console.log ('El resultado de la multiplicacion es: ' +(9 * 4))
+console.log ('El resultado de la division es: ' + (15 / 3)) 
 
 let variableSuma = 12+2
 console.log (variableSuma)
@@ -25,7 +21,7 @@ console.log (variableDivision)
 alert (variableDivision)
 
 let miedad = (2023-2008)
-alert (miedad)
+alert ('Mi edad es: ' + miedad)
 // como agregar el texto adelante del número? 
 
 let añoUsuario = prompt ('Introduce tu año de nacimiento'); 
