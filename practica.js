@@ -41,6 +41,20 @@ let tres = 3
 let resultadoMultiplicacion = 10 * 3
 console.log('Resultado 10*3= ' + resultadoMultiplicacion)
 
+function calcularPromedio(a,b,c) 
+{ 
+    let promedio = (a + b + c) / 3
+    return promedio
+}
+calcularPromedio (10,9,8)
+alert (calcularPromedio(10,9,8))
+console.log (calcularPromedio(10,9,8)) 
+
+let numeroCalcular = prompt ('Introduce el número a calcular')
+console.log(numeroCalcular * numeroCalcular * numeroCalcular) 
+
+
+
 
 
 
