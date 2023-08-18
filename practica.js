@@ -51,7 +51,8 @@ alert (calcularPromedio(10,9,8))
 console.log (calcularPromedio(10,9,8)) 
 
 let numeroCalcular = prompt ('Introduce el número a calcular')
-console.log(numeroCalcular * numeroCalcular * numeroCalcular) 
+alert(numeroCalcular * numeroCalcular * numeroCalcular) 
+
 
 
 
