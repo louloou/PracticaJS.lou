@@ -79,43 +79,67 @@ d. Resta
 e. La siguiente expresion: x^2+5 
 
 2) Crear una funcion que salude a una persona, utilizando su nombre y apellido. 
-*/ 
+*/
 
-function multiplicacion(b, c)
-{
+function multiplicacion(b, c) {
     let resultado = b * c
     return resultado
 }
-console.log (multiplicacion(2,5))
+console.log(multiplicacion(2, 5))
 
-function division (a,b)
-{
-    let resultado= a/b 
+function division(a, b) {
+    let resultado = a / b
     return resultado
 }
-console.log (division (10,2))
+console.log(division(10, 2))
 
-function suma(a,b)
-{
-    let resultado= a + b
+function suma(a, b) {
+    let resultado = a + b
     return resultado
 }
-console.log (suma(25,2))
+console.log(suma(25, 2))
 
-function resta(a,b)
-{
-    let resultado= a-b
+function resta(a, b) {
+    let resultado = a - b
     return resultado
 }
-console.log (resta(25,5))
+console.log(resta(25, 5))
 
-function expresion (x,b)
-{
-    let resultado= x*x+b
-    return resultado 
+function expresion(x, b) {
+    let resultado = x * x + b
+    return resultado
 }
-alert (expresion (8,5))
+alert(expresion(8, 5))
 
 let nombre = prompt('Introduce tu Nombre');
 let apellido = prompt('Introduce tu Apellido');
 alert('Bienvenido/a mi página web, ' + nombre + apellido)
+
+function saludar(nombre, apellido) {
+    return "Bienvenid@" + nombre + apellido
+}
+alert (saludar ( "Sasha" , "Cisneros"))
+
+function cuadrado (numero)
+{
+    let resultado 
+}
+function operacion (x,b)
+{
+    let resultado= cuadrado
+}
+
+/*  
+1) Crear una funcion que calcule el cuadrado de un numero
+2) Crear una funcion que calcule el cubo de un numero
+3) Crear una funcion por cada una de las siguientes operaciones 
+a) x^2-x-10
+b) (x-3)*2
+c) x*x^2+20
+d) (x/2) + 5
+e) x^3+x^2+10
+f) (x*10)*5
+*/
+
+
+// Alt + Shift + F
