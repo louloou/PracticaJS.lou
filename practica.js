@@ -109,12 +109,12 @@ function resta(a,b)
 }
 console.log (resta(25,5))
 
-function expresion (x,a,b)
+function expresion (x,b)
 {
-    let resultado= x^2+5
+    let resultado= x*x+b
     return resultado 
 }
-console.log (expresion (4,2,5))
+alert (expresion (8,5))
 
 let nombre = prompt('Introduce tu Nombre');
 let apellido = prompt('Introduce tu Apellido');
