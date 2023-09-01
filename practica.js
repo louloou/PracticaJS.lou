@@ -118,7 +118,7 @@ alert('Bienvenido/a mi página web, ' + nombre + apellido)
 function saludar(nombre, apellido) {
     return "Bienvenid@" + nombre + apellido
 }
-alert(saludar("Sasha", "Cisneros"))
+alert(saludar("Sasha ", "Cisneros"))
 
 function cuadrado(numero) {
     let resultado
@@ -126,6 +126,7 @@ function cuadrado(numero) {
 function operacion(x, b) {
     let resultado = cuadrado
 }
+
 
 /*  
 1) Crear una funcion que calcule el cuadrado de un numero
@@ -174,7 +175,6 @@ function d(x) {
     return resultado
 }
 console.log(d(2))
-
 function e(x) {
     let resultado = (x * x * x) + (x * x) + 10
     return resultado
