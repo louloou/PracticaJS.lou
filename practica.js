@@ -118,15 +118,13 @@ alert('Bienvenido/a mi página web, ' + nombre + apellido)
 function saludar(nombre, apellido) {
     return "Bienvenid@" + nombre + apellido
 }
-alert (saludar ( "Sasha" , "Cisneros"))
+alert(saludar("Sasha", "Cisneros"))
 
-function cuadrado (numero)
-{
-    let resultado 
+function cuadrado(numero) {
+    let resultado
 }
-function operacion (x,b)
-{
-    let resultado= cuadrado
+function operacion(x, b) {
+    let resultado = cuadrado
 }
 
 /*  
@@ -140,6 +138,53 @@ d) (x/2) + 5
 e) x^3+x^2+10
 f) (x*10)*5
 */
+function cuadradoNumero(x) {
+    let resultado = x * x
+    return resultado
+}
+console.log(cuadradoNumero(2))
 
+function cuboNumero(x) {
+    let resultado = x * x * x
+    return resultado
+}
+console.log(cuboNumero(3))
+
+function a(x) {
+    //let resultado= cuadradoNumero(x) - x - 10
+    let resultado = (x * x) - x - 10
+    return resultado
+}
+console.log(a(5))
+
+function b(x) {
+    let resultado = (x - 3) * 2
+    return resultado
+}
+console.log(b(2))
+
+function c(x) {
+    let resultado = (x * x) * x + 20
+    return resultado
+}
+console.log(c(3))
+
+function d(x) {
+    let resultado = (x / 2) + 5
+    return resultado
+}
+console.log(d(2))
+
+function e(x) {
+    let resultado = (x * x * x) + (x * x)+ 10
+    return resultado
+}
+console.log(e(5))
+
+function f(x) {
+    let resultado = (x * 10) * 5
+    return resultado
+}
+console.log(f(3))
 
 // Alt + Shift + F
