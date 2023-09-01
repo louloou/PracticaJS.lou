@@ -176,7 +176,7 @@ function d(x) {
 console.log(d(2))
 
 function e(x) {
-    let resultado = (x * x * x) + (x * x)+ 10
+    let resultado = (x * x * x) + (x * x) + 10
     return resultado
 }
 console.log(e(5))
