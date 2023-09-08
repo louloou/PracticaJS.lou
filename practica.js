@@ -187,4 +187,33 @@ function f(x) {
 }
 console.log(f(3))
 
+let hola = "🥶"
+alert(hola)
+
+let nombreEstudiante = prompt("Ingresar el nombre")
+let apellidoEstudiante = prompt("Ingresar el apellido")
+
+alert("Bienvenid@ " + nombreEstudiante + " " + apellidoEstudiante)
+
+function saludar(nombre, apellido) {
+    let saludo = "bienvenid@" + nombre + "" + apellido
+    return saludo
+}
+alert(saludar("Martina", "Cisneros"))
+
+function operacion(x) {
+    let resultado = x * x * x + x + 13
+    return resultado
+}
+
+ /* let nota = 8
+if (nota >= 6)
+{
+alert ("Felicidades aprobaste el examen!")
+}
+else {
+ alert ("Desaprobaste, segui estudiando")
+}
+*/ 
+
 // Alt + Shift + F
