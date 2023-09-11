@@ -221,7 +221,7 @@ let SashaSeLlevaMaterias = false
 if (SashaSeLlevaMaterias == true) {
     alert("se va a diciembre")
 } else {
-    alert("le compran unas zapatillas")
+    alert("Le compran unas zapatillas")
 }
 
  // Alt + Shift + F
