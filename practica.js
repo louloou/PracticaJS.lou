@@ -206,22 +206,4 @@ function operacion(x) {
     return resultado
 }
 
-/* let nota = 8
-if (nota >= 6)
-{
-alert ("Felicidades aprobaste el examen!")
-}
-else {
-alert ("Desaprobaste, segui estudiando")
-}
-*/
-
-let SashaSeLlevaMaterias = false
-
-if (SashaSeLlevaMaterias == true) {
-    alert("se va a diciembre")
-} else {
-    alert("Le compran unas zapatillas")
-}
-
  // Alt + Shift + F
