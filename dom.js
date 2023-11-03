@@ -4,10 +4,18 @@ let titulo = document.querySelector("h1")
 
 
 let imagen = document.querySelector(".Imagen")
-imagen.src = "chori.jfif"
+
+let verificar =false; 
 
 let boton = document.querySelector("#cambiarImagen")
 boton.onclick = function() {
-    titulo.innerText = "Hola como estan"
-    imagen.src = "chori.jfif"
+    if (verificar== false){
+        titulo.innerText = "Hola como estan"
+        imagen.src = "chori.jfif"
+        verificar = true
+    }else {
+        titulo.innerText = ' '
+        verificar = false
+    }
+    
 }
