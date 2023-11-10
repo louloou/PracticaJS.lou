@@ -19,3 +19,10 @@ boton.onclick = function() {
     }
     
 }
+let botonRojo=document.querySelector ("#rojo")
+let botonAzul=document.querySelector ("#azul")
+let botonVerde=document.querySelector ("#verde")
+
+botonRojo.onclick = function(){
+    titulo.style.color= "red"
+}
