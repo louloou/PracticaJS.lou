@@ -21,10 +21,12 @@ function esMayor(edad) {
 esMayor(edad)
 
 let edadCat = prompt("Ingresa tu edad")
-function categoriaEdad (edadCat) {
-if (edadCat <= 11) {
-    alert ("sos un niño")
-} else if (edadCat <= 18) {
-    alert ("Adolescente")
-} else if (edad <= 26){  
-alert ("joven-adulto")
+function categoriaEdad(edadCat) {
+    if (edadCat <= 11) {
+        alert("sos un niño")
+    } else if (edadCat <= 18) {
+        alert("Adolescente")
+    } else if (edad <= 26) {
+        alert("joven-adulto")
+    }
+}
