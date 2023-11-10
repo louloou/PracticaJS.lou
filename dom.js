@@ -19,6 +19,7 @@ boton.onclick = function () {
     }
 
 }
+
 let botonRojo = document.querySelector("#botonRojo")
 let botonAzul = document.querySelector("#botonAzul")
 let botonVerde = document.querySelector("#botonVerde")
@@ -31,4 +32,13 @@ botonAzul.onclick = function () {
 }
 botonVerde.onclick = function () {
     titulo.style.color = "green"
+}
+
+let imagen1 = document.querySelector("img")
+imagen1.width = "130px"
+
+let aumento= 100
+tamaño.onclick =function (){
+    aumento =aumento + 10
+    imagen1.style.width= aumento + "px"
 }
